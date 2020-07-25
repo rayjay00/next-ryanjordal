@@ -30,7 +30,6 @@ export default function Layout({ children, description, pageTitle }) {
           href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap"
           rel="stylesheet"
         ></link>
-        <link href="./assets/prism.css" rel="stylesheet"></link>
         {/* Twitter */}
         <meta name="twitter:card" content="summary" key="twcard" />
         <meta name="twitter:creator" content={"rayjay00"} key="twhandle" />
@@ -42,10 +41,7 @@ export default function Layout({ children, description, pageTitle }) {
         ></link>
       </Head>
       <Header />
-      <StyledMain>
-        {children}
-        <script src="./assets/prism.js"></script>
-      </StyledMain>
+      <StyledMain>{children}</StyledMain>
     </>
   );
 }
