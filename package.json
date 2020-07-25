@@ -5,11 +5,29 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
-    "next": "9.4.4",
+    "@sanity/block-content-to-react": "^2.0.7",
+    "@sanity/client": "^1.149.16",
+    "emoji-regex": "^9.0.0",
+    "gray-matter": "^4.0.2",
+    "next": "^9.4.5-canary.17",
+    "node-emoji": "^1.10.0",
+    "prism-react-renderer": "^0.1.7",
+    "prism-themes": "^1.1.0",
+    "prismjs": "^1.20.0",
+    "raw-loader": "^4.0.1",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-code-blocks": "0.0.8-beta",
+    "react-dom": "16.13.1",
+    "react-icons": "^3.10.0",
+    "reading-time": "^1.2.0",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "babel-plugin-inline-react-svg": "^1.1.1",
+    "babel-plugin-styled-components": "^1.11.0-0"
   }
 }
