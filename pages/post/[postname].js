@@ -68,9 +68,6 @@ const serializers = {
 };
 
 const BlogPost = (props) => {
-  console.log("red", props);
-  console.log("emoji", props.emoji);
-
   useEffect(() => {
     Prism.highlightAll();
   }, []);
