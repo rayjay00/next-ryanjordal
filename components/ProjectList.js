@@ -92,11 +92,13 @@ export default function ProjectList({ heading, projects }) {
           )}
       </StyledList>
       {heading && (
-        <Link href={{ pathname: `/projects` }}>
-          <a style={{ color: "black", float: "right" }}>
-            See All Projects &#8594;
-          </a>
-        </Link>
+        <div style={{ display: "flex", justifyContent: "flex-end" }}>
+          <Link href={{ pathname: `/projects` }}>
+            <a style={{ color: "black", display: "block" }}>
+              See All Projects &#8594;
+            </a>
+          </Link>
+        </div>
       )}
     </>
   );

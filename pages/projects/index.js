@@ -47,11 +47,11 @@ const AllProjects = ({ projects }) => {
         <StyledHeadingPrimary>All Projects</StyledHeadingPrimary>
         <ProjectList projects={projects} />
       </article>
-      <footer>
+      <div style={{ display: "flex", justifyContent: "flex-end" }}>
         <StyledPostLink href="/" passHref>
           &larr; Back to Homepage
         </StyledPostLink>
-      </footer>
+      </div>
     </Layout>
   );
 };

@@ -84,11 +84,11 @@ export default function PostList({ posts, heading }) {
           })}
       </StyledList>
       {heading && (
-        <Link href={{ pathname: `/posts/` }}>
-          <a style={{ color: "black", float: "right" }}>
-            See All Posts &#8594;
-          </a>
-        </Link>
+        <div style={{ display: "flex", justifyContent: "flex-end" }}>
+          <Link href={{ pathname: `/posts/` }}>
+            <a style={{ color: "black" }}>See All Posts &#8594;</a>
+          </Link>
+        </div>
       )}
     </>
   );

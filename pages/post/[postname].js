@@ -101,11 +101,9 @@ const BlogPost = (props) => {
           )}
         </StyledSection>
       </article>
-      <footer>
-        <StyledPostLink href="/" passHref>
-          &larr; Back to Homepage
-        </StyledPostLink>
-      </footer>
+      <StyledPostLink href="/posts" passHref>
+        &larr; All Blog Posts
+      </StyledPostLink>
     </Layout>
   );
 };

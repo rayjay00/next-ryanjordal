@@ -46,11 +46,9 @@ const AllPosts = ({ posts }) => {
         <StyledHeadingPrimary>All Posts</StyledHeadingPrimary>
         <PostList posts={posts} />
       </article>
-      <footer>
-        <StyledPostLink href="/" passHref>
-          &larr; Back to Homepage
-        </StyledPostLink>
-      </footer>
+      <StyledPostLink href="/" passHref>
+        &larr; Back to Homepage
+      </StyledPostLink>
     </Layout>
   );
 };
