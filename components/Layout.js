@@ -1,6 +1,7 @@
 import emoji from "node-emoji";
 import Head from "next/head";
 import Header from "./Header";
+import Footer from "../containers/Footer";
 import styled from "styled-components";
 
 const StyledMain = styled.main`
@@ -42,6 +43,7 @@ export default function Layout({ children, description, pageTitle }) {
       </Head>
       <Header />
       <StyledMain>{children}</StyledMain>
+      <Footer />
     </>
   );
 }
