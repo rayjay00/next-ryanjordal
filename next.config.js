@@ -1,6 +1,5 @@
 module.exports = {
-  exportTrailingSlash: false,
-  target: "serverless",
+  exportTrailingSlash: true,
   webpack: function (config) {
     config.module.rules.push({
       test: /\.md$/,
