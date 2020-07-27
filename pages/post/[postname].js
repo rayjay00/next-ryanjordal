@@ -77,7 +77,7 @@ const BlogPost = (props) => {
       pageTitle={`Ryan's Dev Blog | ${props.title}`}
       description={props.blurb}
     >
-      <StyledPostLink href="/posts" passHref>
+      <StyledPostLink href="/posts/" passHref>
         &larr; All blog posts
       </StyledPostLink>
       <article>
