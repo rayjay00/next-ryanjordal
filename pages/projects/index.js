@@ -37,7 +37,7 @@ const StyledSection = styled.section`
 `;
 
 // TODO: Figure out this title post that we need to do hmmm
-const AllPosts = ({ projects }) => {
+const AllProjects = ({ projects }) => {
   return (
     <Layout
       pageTitle={`Ryan's Dev Blog | All Projects`}
@@ -56,16 +56,14 @@ const AllPosts = ({ projects }) => {
   );
 };
 
-AllPosts.getInitialProps = async function (context) {
-  // It's important to default the slug so that it doesn't return "undefined"
-  const { slug = "" } = context.query;
+export const getStaticProps = async function () {
   const projects = await client.fetch(
     `
     *[_type == "project"]
-  `,
-    { slug }
+  `
   );
 
-  return { projects };
+  return { props: { projects } };
 };
-export default AllPosts;
+
+export default AllProjects;
