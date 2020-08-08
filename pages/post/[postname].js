@@ -33,9 +33,13 @@ const StyledParagraph = styled.p`
 const StyledSection = styled.section`
   font-family: "Muli", sans-serif;
   letter-spacing: 0.4px;
+  pre {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 30px 60px 0px;
+  }
   figure {
     img {
       width: 100%;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 30px 60px 0px;
     }
   }
 `;
