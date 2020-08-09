@@ -25,11 +25,7 @@ export default function Layout({ children, description, pageTitle }) {
           href="https://fonts.googleapis.com/css2?family=Muli&display=swap"
           rel="stylesheet"
         ></link>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap"
-          rel="stylesheet"
-        ></link>
-        {/* Twitter */}
+        {/* Twitter - */}
         <meta name="twitter:card" content="summary" key="twcard" />
         <meta name="twitter:creator" content={"rayjay00"} key="twhandle" />
         <meta name="description" content={description} />
