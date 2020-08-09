@@ -1,4 +1,3 @@
-import emoji from "node-emoji";
 import Head from "next/head";
 import Header from "./Header";
 import Footer from "../containers/Footer";
@@ -12,7 +11,6 @@ const StyledMain = styled.main`
   }
 `;
 
-const stuff = emoji.get("computer");
 export default function Layout({ children, description, pageTitle }) {
   return (
     <>
@@ -34,6 +32,7 @@ export default function Layout({ children, description, pageTitle }) {
         {/* Twitter */}
         <meta name="twitter:card" content="summary" key="twcard" />
         <meta name="twitter:creator" content={"rayjay00"} key="twhandle" />
+        <meta name="description" content={description} />
         <link
           rel="icon"
           type="image/png"
