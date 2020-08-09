@@ -25,7 +25,7 @@ const Index = ({ posts, projects }) => {
 export const getStaticProps = async function () {
   const postQuery = `*[_type == "post"][0..3]`;
   const posts = await client.fetch(postQuery);
-  const projectQuery = `*[_type == "project"][0..3]`;
+  const projectQuery = `*[_type == "project"][0..4]`;
   const projects = await client.fetch(projectQuery);
   return {
     props: {
