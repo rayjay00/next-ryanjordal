@@ -63,7 +63,7 @@ export default function ProjectList({ heading, projects }) {
                     }}
                   >
                     {icon && <StyledEmoji>{emoji.get(icon)}</StyledEmoji>}
-                    <h3>{projectName}</h3>
+                    <h2>{projectName}</h2>
                   </div>
                   <p>{blurb}</p>
                   <StyledLinkWrapper>

@@ -8,6 +8,7 @@
     url("/fonts/Merriweather/Merriweather-LightItalic.ttf") format("truetype"),
     url("/fonts/Merriweather/Merriweather-Regular.ttf") format("truetype"),
     url("/fonts/Merriweather/Merriweather-Light.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -17,4 +18,5 @@
     url("/fonts/Mulish/Mulish-MediumItalic.ttf") format("truetype"),
     url("/fonts/Mulish/Mulish-SemiBold.ttf") format("truetype"),
     url("/fonts/Mulish/Mulish-SemiBoldItalic.ttf") format("truetype");
+  font-display: swap;
 }

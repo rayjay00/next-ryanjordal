@@ -71,7 +71,7 @@ export default function PostList({ posts, heading }) {
                       }}
                     >
                       {icon && <StyledEmoji>{emoji.get(icon)}</StyledEmoji>}
-                      <h3>{title}</h3>
+                      <h2>{title}</h2>
                     </div>
                     <StyledDate>
                       {new Date(_createdAt).toLocaleDateString()}
