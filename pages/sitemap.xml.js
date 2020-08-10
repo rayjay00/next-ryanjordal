@@ -31,7 +31,7 @@ const Sitemap = () => {
 
 export default Sitemap;
 
-export async function getServerSideProps({ res }) {
+export async function getStaticProps({ res }) {
   const posts = await client.fetch(
     `
     *[_type == "post"]
