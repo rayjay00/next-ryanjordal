@@ -32,7 +32,9 @@ export default class MyDocument extends Document {
       <html lang="en">
         <Head>
           {/* Global Site Tag (gtag.js) - Google Analytics */}
-          <script
+          <link
+            rel="preload"
+            as="script"
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_ANALYTICS_ID}`}
           />
