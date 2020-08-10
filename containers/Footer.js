@@ -23,13 +23,19 @@ const StyledLink = styled.a`
 export default function Footer() {
   return (
     <StyledFooter>
-      <StyledLink href="mailto:hello@ryanjordal.me">
+      <StyledLink aria-label="Email link" href="mailto:hello@ryanjordal.me">
         <AiOutlineMail size={32} style={{ marginRight: "5px" }} />
       </StyledLink>
-      <StyledLink href="https://www.github.com/rayjay00">
+      <StyledLink
+        aria-label="GitHub link"
+        href="https://www.github.com/rayjay00"
+      >
         <AiFillGithub size={32} style={{ marginRight: "5px" }} />
       </StyledLink>
-      <StyledLink href="https://www.linkedin.com/in/ryanjordal">
+      <StyledLink
+        aria-label="LinkedIn link"
+        href="https://www.linkedin.com/in/ryanjordal"
+      >
         <AiFillLinkedin size={32} />
       </StyledLink>
     </StyledFooter>
