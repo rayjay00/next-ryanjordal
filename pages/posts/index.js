@@ -60,7 +60,7 @@ export const getStaticProps = async function () {
   `
   );
 
-  return { props: { posts }, unstable_revalidate: 1 };
+  return { props: { posts }, revalidate:: 1 };
 };
 
 export default AllPosts;

@@ -32,7 +32,7 @@ export const getStaticProps = async function () {
       posts,
       projects,
     },
-    unstable_revalidate: 1,
+    revalidate:: 1,
   };
 };
 

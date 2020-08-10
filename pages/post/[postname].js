@@ -136,7 +136,7 @@ export const getStaticProps = async function ({ params: { postname: slug } }) {
   const query = `*[_type == "post" && slug.current == $slug][0]
   `;
   const props = await client.fetch(query, { slug });
-  return { props, unstable_revalidate: 1 };
+  return { props, revalidate:: 1 };
 };
 
 export default BlogPost;
