@@ -41,8 +41,9 @@ const StyledPostLink = styled.a`
   &:hover {
     box-shadow: 0 10px 25px rgba(100, 110, 140, 0.1), 0 2px 10px lightgrey;
   }
-  h3 {
-    margin: 0;
+  h2 {
+    margin: 1rem 0;
+    font-size: 1.25rem;
   }
 `;
 

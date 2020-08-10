@@ -6,7 +6,7 @@ import IconLink from "./IconLink";
 import { FaGithub } from "react-icons/fa";
 import { FiArrowRight } from "react-icons/fi";
 
-const StyledListItems = styled.div`
+const StyledListItems = styled.li`
   margin: 5px 0;
   padding: 1.1rem;
   border-radius: 0.3rem;
@@ -15,14 +15,16 @@ const StyledListItems = styled.div`
   transition: box-shadow 0.5s ease;
   text-decoration: none;
   color: black;
-  h3 {
-    margin: 0;
+  h2 {
+    margin: 1rem 0;
+    font-size: 1.25rem;
   }
 `;
 
 const StyledList = styled.ul`
   display: flex;
   flex-flow: column wrap;
+  list-style: none;
   padding: 0;
 `;
 
