@@ -32,6 +32,7 @@ export const getStaticProps = async function () {
       posts,
       projects,
     },
+    revalidate: 1,
   };
 };
 
