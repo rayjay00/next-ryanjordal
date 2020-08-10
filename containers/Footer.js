@@ -8,7 +8,7 @@ const StyledFooter = styled.footer`
   margin: 0 auto;
   margin-top: 1rem;
   * {
-    font-family: "Muli", sans-serif;
+    font-family: "Mulish", sans-serif;
   }
 `;
 

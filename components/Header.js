@@ -5,7 +5,7 @@ const StyledHeader = styled.header`
   max-width: 860px;
   margin: 0 auto;
   * {
-    font-family: "Muli", sans-serif;
+    font-family: "Mulish", sans-serif;
   }
 
   nav {
@@ -14,7 +14,7 @@ const StyledHeader = styled.header`
 `;
 
 const StyledHeaderLink = styled.a`
-  font-family: "Muli", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-size: 2.5rem;
   text-decoration: none;
   &:visited {

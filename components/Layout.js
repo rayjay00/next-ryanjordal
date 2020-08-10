@@ -7,7 +7,7 @@ const StyledMain = styled.main`
   max-width: 860px;
   margin: 0 auto;
   * {
-    font-family: "Muli", sans-serif;
+    font-family: "Mulish", sans-serif;
   }
 `;
 
@@ -17,24 +17,14 @@ export default function Layout({ children, description, pageTitle }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{pageTitle}</title>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,900;1,300;1,900&display=swap"
-          rel="stylesheet"
-        ></link>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Muli&display=swap"
-          rel="stylesheet"
-        ></link>
         {/* Twitter - */}
         <meta name="twitter:card" content="summary" key="twcard" />
         <meta name="twitter:creator" content={"rayjay00"} key="twhandle" />
         <meta name="description" content={description} />
         <link
           rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/joypixels/257/laptop_1f4bb.png"
-        ></link>
+          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>"
+        />
       </Head>
       <Header />
       <StyledMain>{children}</StyledMain>

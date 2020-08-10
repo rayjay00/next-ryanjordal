@@ -31,7 +31,7 @@ const StyledParagraph = styled.p`
 `;
 
 const StyledSection = styled.section`
-  font-family: "Muli", sans-serif;
+  font-family: "Mulish", sans-serif;
   letter-spacing: 0.4px;
   p {
     line-height: 1.625rem;

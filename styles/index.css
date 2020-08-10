@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Merriweather";
+  src: local("Merriweather"),
+    url("/fonts/Merriweather/Merriweather-Black.ttf") format("truetype"),
+    url("/fonts/Merriweather/Merriweather-BlackItalic.ttf") format("truetype"),
+    url("/fonts/Merriweather/Merriweather-Bold.ttf") format("truetype"),
+    url("/fonts/Merriweather/Merriweather-Italic.ttf") format("truetype"),
+    url("/fonts/Merriweather/Merriweather-LightItalic.ttf") format("truetype"),
+    url("/fonts/Merriweather/Merriweather-Regular.ttf") format("truetype"),
+    url("/fonts/Merriweather/Merriweather-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: local("Mulish"),
+    url("/fonts/Mulish/Mulish-Medium.ttf") format("truetype"),
+    url("/fonts/Mulish/Mulish-MediumItalic.ttf") format("truetype"),
+    url("/fonts/Mulish/Mulish-SemiBold.ttf") format("truetype"),
+    url("/fonts/Mulish/Mulish-SemiBoldItalic.ttf") format("truetype");
+}

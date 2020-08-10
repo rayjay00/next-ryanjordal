@@ -2,6 +2,7 @@ import App from "next/app";
 import { ThemeProvider } from "styled-components";
 
 import "prismjs/themes/prism-tomorrow.css";
+import "styles/index.css";
 
 const theme = {
   colors: {
