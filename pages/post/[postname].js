@@ -33,6 +33,9 @@ const StyledParagraph = styled.p`
 const StyledSection = styled.section`
   font-family: "Muli", sans-serif;
   letter-spacing: 0.4px;
+  p {
+    line-height: 1.625rem;
+  }
   pre {
     box-shadow: rgba(0, 0, 0, 0.12) 0px 30px 60px 0px;
   }
