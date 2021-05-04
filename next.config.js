@@ -1,10 +1,10 @@
 module.exports = {
-  exportTrailingSlash: false,
-  webpack: function (config) {
+  trailingSlash: false,
+  webpack: function(config) {
     config.module.rules.push({
       test: /\.md$/,
-      use: "raw-loader",
+      use: "raw-loader"
     });
     return config;
-  },
+  }
 };
