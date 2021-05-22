@@ -61,7 +61,7 @@ export default function ProjectList({ heading, projects }) {
                   <div
                     style={{
                       display: "flex",
-                      alignItems: "center",
+                      alignItems: "center"
                     }}
                   >
                     {icon && <StyledEmoji>{emoji.get(icon)}</StyledEmoji>}
@@ -69,17 +69,17 @@ export default function ProjectList({ heading, projects }) {
                   </div>
                   <p>{blurb}</p>
                   <StyledLinkWrapper>
-                    <IconLink
+                    {/* <IconLink
                       href={gitLink}
                       text="See on GitHub"
                       icon={FaGithub}
-                    />
+                    /> */}
                     <IconLink
                       href={demoLink}
                       text="Go to Site"
                       icon={FiArrowRight}
                       style={{
-                        marginLeft: "0.25rem",
+                        marginLeft: "0.25rem"
                       }}
                     />
                     {slug && (
